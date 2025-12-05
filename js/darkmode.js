@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check for saved user preference
     const savedTheme = localStorage.getItem('theme');
     
-    // Apply saved theme or default to light
-    if (savedTheme === 'dark') {
+    // Default to dark mode unless savedTheme is 'light'
+    if (savedTheme !== 'light') {
         body.classList.add('dark-mode');
     }
     
