@@ -1,0 +1,19 @@
+portfolio-website/
+├── index.html                 # Main HTML file
+├── css/
+│   ├── styles.css             # Main stylesheet
+│   ├── responsive.css         # Responsive styles
+│   └── animations.css         # Animations
+├── js/
+│   ├── main.js                # Main JavaScript file
+│   ├── darkmode.js            # Dark/light mode toggle
+│   └── projects.js            # Project filtering/display
+├── images/
+│   ├── profile-pic.jpg        # Your profile picture
+│   ├── projects/              # Project screenshots
+│   │   ├── project1.jpg
+│   │   ├── project2.jpg
+│   │   └── project3.jpg
+│   └── icons/                 # Various icons
+└── assets/
+    └── resume.pdf             # Your downloadable resume
